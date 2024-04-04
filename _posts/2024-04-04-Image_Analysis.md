@@ -23,7 +23,11 @@ Image segmentation involves partitioning an image into different segments for ca
 
 But, why is Image segmentation so important?
 
-By segmenting an image into distinct regions, it provides us the opportunity to perform targeted analysis of the regions and in turn facilitates specific feature extraction.
+- By segmenting an image into distinct regions, it provides us the opportunity to perform targeted analysis of the regions and in turn facilitates specific feature extraction.
+- By isolating objects, accurate identification and classification can be carried out. This proves useful for autonomous vehicle applications.
+- Used for delineation of anatomical structures and tumors in the medical imagings.
+
+
 
 
 ## Control of Environment
