@@ -3,7 +3,7 @@ In the current digital age we are living in, the world is inundated with images 
 
 ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/bd790785-c281-4ee6-abc9-61226308057a)
 
-### Understanding Image Analysis
+### What is Image Analysis
 At its core, Image Analysis refers to the process of extracting meaningful information from digital images. Rather than just viewing the image closely, image analysis is about deciphering the data it contains. It finds its applications in numerous fields such as:
 - Insight extraction
 - Informer decision making
@@ -36,10 +36,19 @@ Controlling and altering certain aspectsof the imaging environment can greatly s
 
 - The background clutter and complexity in an image can be controlled using uniform background and simplifying the segmentation process by enhancing the contrast between the objects and its surroundings.
 - As parameters like, aperture, shutter speed, etc. affect the quality of the image, contolling camera settings can ensure reliable segmentation results.
+- In biology and microscopy, staining techniques are often employed using fluorescent dyes to accurately identify and dilineate objects from background.
+- Integration of additional sensors like thermal or depth sensors can provide supplementary information that can facilitate in a better segmentation.
   
 
 ### Segmentation Techniques
+Segmentation is mainly based on two basic properties of gray scale images:
+- Discontinuity
+- Similarity
 
+Now let's take a look at how these principles shape segmentation techniques.
+1. Discontinuity-based Segmentation
+   This method relies on idenifying the abrupt changes or discontinuities in the image. This may include properties like intensity, color, or texture. 
+2. Similariy-based Segmentation
 
 ## Edge Detection
 
