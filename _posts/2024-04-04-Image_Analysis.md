@@ -32,7 +32,7 @@ But, why is Image segmentation so important?
 Controlling and altering certain aspectsof the imaging environment can greatly simplify the task of segmentation. THis is done by minimising the factors that could complicate the segmentation process. Let's take a deeper look at how the environmental control can benefit segmentation.
 
 - By controlling the environment lighting, we can minimize shadows and ensure uniform illumination. This can make the boundaries more distinct and segmentation more efficient.
-- ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/7fa93146-92f6-42a5-85d4-8aa58771571d)
+  ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/7fa93146-92f6-42a5-85d4-8aa58771571d)
 
 - The background clutter and complexity in an image can be controlled using uniform background and simplifying the segmentation process by enhancing the contrast between the objects and its surroundings.
 - As parameters like, aperture, shutter speed, etc. affect the quality of the image, contolling camera settings can ensure reliable segmentation results.
