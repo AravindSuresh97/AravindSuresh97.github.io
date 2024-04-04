@@ -16,6 +16,14 @@ Therefore, Image analysis opens a world of opportunities by harnessing the power
 
 
 ## Segmentation
+Among the myriad techniques in Image Analysis, Segmentation stand out as the fundamental one. In fact, Image Segmentation is one fo first steps of Image Analysis. 
+Image segmentation involves partitioning an image into different segments for careful and further analysis of one of those segments. The level of segmentation depends on the problem at hand. Even though it may be considered as a difficult task, its performance determines the overall success fof the whole system.
+
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/2c402a30-8052-4026-ac52-2797eeed209b)
+
+But, why is Image segmentation so important?
+
+By segmenting an image into distinct regions, it provides us the opportunity to perform targeted analysis of the regions and in turn facilitates specific feature extraction.
 
 
 ## Control of Environment
