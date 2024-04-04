@@ -46,11 +46,13 @@ Segmentation is mainly based on two basic properties of gray scale images:
 - Similarity
 
 Now let's take a look at how these principles shape segmentation techniques.
-1. Discontinuity-based Segmentation
+1. **Discontinuity-based Segmentation**
+   
    This method relies on idenifying the abrupt changes or discontinuities in the image. This may include properties like     intensity, color, or texture. Common techniques include:
    - Edge Detection
    - Line Detection
-2. Similariy-based Segmentation
+3. **Similariy-based Segmentation**
+   
    This method focuses on grouping pixels or regions that exhibit similar characteristics like color, texture or motion. Key techniques include:
    - Thresholding
    - Region Growing
