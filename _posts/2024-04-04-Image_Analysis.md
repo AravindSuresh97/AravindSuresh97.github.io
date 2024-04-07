@@ -122,6 +122,15 @@ Images frequently contain fine details or textures that are not necessarily indi
 ### Sobel Edge Detector
 Leveraging mathematical principles and convolution operations, Sobel edge detection offers a robust and efficient approach to edge extraction.
 
+**Understanding Sobel Edge Detection** <br>
+Sobel edge detection is a popular method for detecting edges in grayscale images by computing the gradient magnitude. The technique involves convolving the image with two 3x3 kernels—one for horizontal changes (Sobel-x) and the other for vertical changes (Sobel-y). The resulting gradient magnitude approximates the rate of change of intensity at each pixel, highlighting regions with significant intensity variations, indicative of potential edges.
+
+**Principles of Sobel Edge Detection**
+1. Sobel Kernels: The Sobel kernels consist of weighted coefficients designed to compute the horizontal and vertical gradients of the image intensity. The Sobel-x kernel emphasizes horizontal changes, while the Sobel-y kernel emphasizes vertical changes.
+
+2. Gradient Magnitude: The gradient magnitude at each pixel is computed as the square root of the sum of the squares of the horizontal and vertical gradients. This magnitude represents the strength or intensity of the edge at that pixel location.
+
+3. Gradient Direction: The gradient direction, derived from the arctangent of the Sobel gradients, indicates the orientation of the edges, providing valuable spatial information about the edge structures within the imag
 
 ### Canny Edge Detector
 
