@@ -131,8 +131,26 @@ Sobel edge detection is a popular method for detecting edges in grayscale images
 
 2. Gradient Magnitude: The gradient magnitude at each pixel is computed as the square root of the sum of the squares of the horizontal and vertical gradients. This magnitude represents the strength or intensity of the edge at that pixel location.
 
-3. Gradient Direction: The gradient direction, derived from the arctangent of the Sobel gradients, indicates the orientation of the edges, providing valuable spatial information about the edge structures within the imag
+3. Gradient Direction: The gradient direction, derived from the arctangent of the Sobel gradients, indicates the orientation of the edges, providing valuable spatial information about the edge structures within the image
+
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/fc15b52f-1545-4c63-ab46-59185e42883a)
 
 ### Canny Edge Detector
+Canny Edge Detection with its meticulous approach, involving multiple processing steps and intricate methodologies, sets it apart as a gold standard in edge extraction.
 
+**Working Principle**<br>
+The Canny edge detection algorithm operates on the principle of identifying edges by detecting local maxima in the gradient magnitude of an image while suppressing non-maximum values. It aims to achieve high detection rates with minimal false positives and precise localization of edges. Now, let's take a look at the processing steps involved:
+1. Gaussian Smoothing
+The first step in Canny edge detection involves applying Gaussian smoothing to the input image to reduce noise and spurious detections. Gaussian blur is applied to suppress high-frequency noise components while preserving edges.
 
+2. Gradient Calculation:
+Next, gradients in both horizontal and vertical directions are computed using derivative filters, typically Sobel operators. These gradients represent the rate of change of intensity at each pixel and provide directional information about the edges.
+
+3. Gradient Magnitude and Orientation:
+The gradient magnitude and orientation are then calculated from the horizontal and vertical gradients. The magnitude represents the strength of the edge at each pixel, while the orientation indicates the direction of the edge.
+
+4. Non-Maximum Suppression:
+One of the key steps in Canny edge detection is non-maximum suppression, where only local maxima in the gradient magnitude along the direction of the gradient orientation are preserved. This process ensures that only the most significant edges are retained while suppressing non-maximum values.
+
+5. Thresholding and Edge Tracking:
+Finally, thresholding is applied to identify potential edge pixels based on their gradient magnitude. Hysteresis thresholding, involving two thresholds (high and low), is often used for edge tracking. Pixels with gradient magnitudes above the high threshold are considered strong edges, while those between the high and low thresholds are considered weak edges. Weak edges are included in the final edge map only if they are connected to strong edges.
