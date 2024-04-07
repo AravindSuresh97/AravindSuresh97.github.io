@@ -1,8 +1,8 @@
 # Image Analysis: Understanding its significance
 In the current digital age we are living in, the world is inundated with images captured from all sorts of sources - like smartphones, satellites, etc. But have you ever stopped to wonder wealth of information these images have hidden in them? That's where image analysis comes into play. Now, let's delve deeper into this fascinating field .
-
+<p align="center">
 ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/bd790785-c281-4ee6-abc9-61226308057a)
-
+</p>
 ### What is Image Analysis
 At its core, Image Analysis refers to the process of extracting meaningful information from digital images. Rather than just viewing the image closely, image analysis is about deciphering the data it contains. It finds its applications in numerous fields such as:
 - Insight extraction
@@ -11,16 +11,16 @@ At its core, Image Analysis refers to the process of extracting meaningful infor
 - Security And Surveillance
 
 Therefore, Image analysis opens a world of opportunities by harnessing the power of computational techniques and unlocking hidden infirmations present in digital images. rom advancing medical diagnostics to ensuring public safety, the impact of image analysis reverberates far and wide, shaping our present and paving the way for a brighter future. So next time you snap a picture or look at an image, remember there more than what meets the eye. Behind every pixel is a story waiting to be told. 😉
-
+<p align="center">
 ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/eb2d8544-c791-4a4b-b750-7c08a106701c)
-
+</p>
 
 ## Segmentation
 Among the myriad techniques in Image Analysis, Segmentation stand out as the fundamental one. In fact, Image Segmentation is one fo first steps of Image Analysis. 
 Image segmentation involves partitioning an image into different segments for careful and further analysis of one of those segments. The level of segmentation depends on the problem at hand. Even though it may be considered as a difficult task, its performance determines the overall success fof the whole system.
-
+<p align="center">
 ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/2c402a30-8052-4026-ac52-2797eeed209b)
-
+</p>
 But, why is Image segmentation so important?
 
 - By segmenting an image into distinct regions, it provides us the opportunity to perform targeted analysis of the regions and in turn facilitates specific feature extraction.
@@ -32,6 +32,7 @@ But, why is Image segmentation so important?
 Controlling and altering certain aspectsof the imaging environment can greatly simplify the task of segmentation. THis is done by minimising the factors that could complicate the segmentation process. Let's take a deeper look at how the environmental control can benefit segmentation.
 
 - By controlling the environment lighting, we can minimize shadows and ensure uniform illumination. This can make the boundaries more distinct and segmentation more efficient.
+  <p align="center">
   ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/7fa93146-92f6-42a5-85d4-8aa58771571d)
 
 - The background clutter and complexity in an image can be controlled using uniform background and simplifying the segmentation process by enhancing the contrast between the objects and its surroundings.
@@ -62,9 +63,9 @@ Now let's take a look at how these principles shape segmentation techniques.
 ## Exploring Edge Detection
 In the realm of image processing, edge detection stands as a fundamental technique, acting as the cornerstone for various higher-level tasks.
 Edge detection is the process of identifying boundaries or transitions between objects or regions within an image. These boundaries, known as edges, represent significant changes in pixel intensity, typically indicating transitions from one surface to another, changes in texture, or the presence of objects with distinct features. 
-
+<p align="center">
 ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/1e950786-293c-4d57-86c3-491d8a80eea4)
-
+</p>
 
 
 An excellent edge setection algorithm should be able to produce:
@@ -105,17 +106,19 @@ Edge detection algorithms often compute gradients or derivatives of the image in
 3. **Suppressing Irrelevant Details:**
 Images frequently contain fine details or textures that are not necessarily indicative of true object boundaries or edges. Smoothing filters help suppress irrelevant details by blurring the image slightly, emphasizing only the larger-scale structures.
 
-
+<p align="center">
 ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/c35c1209-47ee-4045-9542-600ce4f15509)
-
+</p>
 - When computing derivatives to detect edges, noise present in the image can lead to undesirable amplification, resulting in spurious edge detections or false positives. 
 - Filtering the image prior to derivative computations serves as a crucial step in mitigating the adverse effects of noise amplification. By applying a smoothing filter, high-frequency noise components are attenuated, leading to a smoother signal with reduced noise content. By convolving the image with a suitable smoothing kernel, high-frequency noise is suppressed, and the image is smoothed to facilitate subsequent edge detection.
 - The convolution of the smoothed image with a derivative kernel and subsequent differentiation yield a response that highlights regions of rapid intensity changes, indicative of potential edges. This process effectively amplifies edge features while suppressing noise-induced fluctuations, resulting in a sharp peak in the gradient magnitude profile corresponding to the detected edges.
 
-
+<p align="center">
 ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/7099559d-fbd3-4f1f-8de2-f29bc3f19dfe)
+</p>
+  <p align="center">
 ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/e78f9905-9c4a-4e34-ac9a-b474d1099da8)
-
+</p>
 
 
 ### Sobel Edge Detector
