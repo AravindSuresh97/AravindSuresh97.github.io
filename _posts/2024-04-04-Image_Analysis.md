@@ -66,9 +66,8 @@ Edge detection is the process of identifying boundaries or transitions between o
 
 ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/1e950786-293c-4d57-86c3-491d8a80eea4)
 
-{% include info.html text="Edges in images are characterized by rapid variations in pixel intensity, marking transitions between distinct regions or features." %}
-
-Detecting edges involves analyzing the first derivative of the intensity profile, perpendicular to the edge, or determining the zero crossing of the second derivative. Gradient operators offer a straightforward approach to edge detection, utilizing the first derivative and computed through convolution operations. These operators provide efficient means to highlight regions of significant intensity changes, aiding in the precise identification of edges within digital images.
+{% include info.html text="Notice the edges detected from the Image of the actress" %}
+Edges in images are characterized by rapid variations in pixel intensity, marking transitions between distinct regions or features. Detecting edges involves analyzing the first derivative of the intensity profile, perpendicular to the edge, or determining the zero crossing of the second derivative. Gradient operators offer a straightforward approach to edge detection, utilizing the first derivative and computed through convolution operations. These operators provide efficient means to highlight regions of significant intensity changes, aiding in the precise identification of edges within digital images.
 
 An excellent edge setection algorithm should be able to produce:
 - **Edge Magnitude**: An effective edge detection algorithm should accurately capture the magnitude of edges, representing the strength or intensity of transitions between different regions in an image.
