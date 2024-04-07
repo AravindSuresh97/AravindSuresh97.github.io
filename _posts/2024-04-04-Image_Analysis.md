@@ -154,7 +154,7 @@ One of the key steps in Canny edge detection is non-maximum suppression, where o
 5. Thresholding and Edge Tracking:
 Finally, thresholding is applied to identify potential edge pixels based on their gradient magnitude. Hysteresis thresholding, involving two thresholds (high and low), is often used for edge tracking. Pixels with gradient magnitudes above the high threshold are considered strong edges, while those between the high and low thresholds are considered weak edges. Weak edges are included in the final edge map only if they are connected to strong edges.
 
-![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/a7f9b3ca-2b07-4a0e-86a9-e2166b285cf0)
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/a7f9b3ca-2b07-4a0e-86a9-e2166b285cf0)<br>
 The choice of sigma depends on the problem at hand
 {% include info.html text="Large sigma detects large scale edges. Whereas, small sigma detects fine features." %}
 
