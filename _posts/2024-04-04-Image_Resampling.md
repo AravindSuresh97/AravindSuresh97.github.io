@@ -48,8 +48,16 @@ Nearest-neighbor interpolation is the simplest method, where the value of a new 
 - Bilinear Interpolation:
 Bilinear interpolation considers the nearest four pixels surrounding the target point and calculates the new pixel value as a weighted average of these neighboring pixels. By incorporating information from multiple nearby pixels, bilinear interpolation produces smoother transitions and better preserves image details compared to nearest-neighbor interpolation. However, it may still exhibit some blurring effects, particularly in regions with high-frequency content.
 
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/fb0677ff-97f5-4eb6-9868-026283b303b2)
+
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/5f086657-7b50-48a1-87a7-2c8c0929bb91)
+
+
 - Bicubic Interpolation:
 Bicubic interpolation further improves upon bilinear interpolation by considering a larger neighborhood of 16 pixels and using a cubic polynomial to compute the interpolated pixel value. This method yields even smoother results with reduced blurring and better preservation of image sharpness and detail. However, bicubic interpolation is more computationally intensive than bilinear interpolation.
+
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/584189af-cba6-4521-b772-68b9a1c6525c)
+
 
 ### Gaussian Approximation
 Gaussian approximation serves as a cornerstone in image resampling, offering a robust framework for accurately transforming images while preserving their smoothness and fidelity. This technique leverages the principles of Gaussian blur to achieve seamless transformations with minimal artifacts. The Gaussian blur operation involves convolving the image with a Gaussian kernel, which acts as a low-pass filter, smoothing out noise and high-frequency components while preserving important image structures.
@@ -62,6 +70,9 @@ Gaussian approximation serves as a cornerstone in image resampling, offering a r
 
 ## Multi Resolution Image Representation
 Multi-resolution image representation is a powerful concept that revolutionizes image analysis by providing hierarchical representations at varying levels of detail. Unlike traditional approaches that analyze images at a single resolution, multi-resolution representations capture spatial and frequency information at multiple scales, offering a comprehensive view of the image content.
+
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/ac116605-0d45-47e2-976d-8ffeddd94945)
+
 
 This approach offers several advantages:
 
@@ -90,6 +101,9 @@ The construction of Laplacian pyramids begins with the Gaussian pyramid, with ea
 
 **Enhanced Feature Representation:** <br>
 By accentuating high-frequency components, Laplacian pyramids provide a richer representation of image details compared to Gaussian pyramids alone. This enhanced feature representation facilitates tasks such as image enhancement, edge detection, and texture analysis, enabling more sophisticated image processing techniques.
+
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/ff227947-318d-4ea1-b22c-52c867074115)
+
 ### Applications of Pyramids
 The versatility of image pyramids extends across various domains, where they find application in tasks requiring multi-resolution analysis and feature extraction.
 
@@ -97,5 +111,10 @@ The versatility of image pyramids extends across various domains, where they fin
 Pyramidal representations play a pivotal role in coarse-to-fine strategies, where hierarchical processing is employed to efficiently analyze images at different scales. By initially processing lower-resolution images before refining the analysis on higher-resolution counterparts, this approach enhances computational efficiency while facilitating the detection of features spanning various scales. Coarse-to-fine strategies are particularly valuable in tasks such as object recognition, where a comprehensive understanding of image content is essential.
 - Edge Tracking:
 Image pyramids are instrumental in edge tracking applications, where the accurate delineation of object boundaries is paramount. By leveraging multi-resolution feature extraction, edge tracking algorithms can robustly capture edges with varying sharpness and contrast. Analyzing images at multiple scales enables edge detectors to adapt to diverse image characteristics, enhancing the accuracy and reliability of edge detection in challenging scenarios.
+
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/266f6982-a4bd-448c-93cc-ad4ef6865086)
+
 - Image Merging and Fusion:
 The fusion of images captured at different resolutions or under varying conditions benefits greatly from the use of image pyramids. By combining information from multi-scale representations, fusion techniques seamlessly integrate images, resulting in composite images that are visually appealing and informative. Applications of image merging and fusion include panoramic stitching, where images captured from different viewpoints are seamlessly blended to create a cohesive panoramic view.
+
+<img width="273" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/b9f82cb0-4193-46ec-b20d-4027141ed0bf">
