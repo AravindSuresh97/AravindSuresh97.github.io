@@ -12,6 +12,7 @@ Image scaling, a fundamental operation in image processing, involves altering th
 - Downscaling, on the other hand, involves reducing the size of an image, typically to create a smaller version of the original image. Downscaling often involves subsampling, where pixels are systematically removed from the image to reduce its size. However, indiscriminate subsampling can lead to aliasing artifacts and loss of image information. 
 ### Image Sub-sampling
 Image subsampling, or downsampling, involves reducing the spatial resolution of an image by discarding pixels. However, the choice of subsampling strategy profoundly impacts image fidelity.
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/e1962904-583b-4865-b268-d00902beda6e)
 
 - Good Subsampling: Preserves essential details and structures, resulting in minimal loss of critical information. It strategically selects pixels for removal, retaining the overall integrity of the image while reducing its size.
 
@@ -30,7 +31,8 @@ The process of smoothing before subsampling is critical to ensure the integrity 
 **Mitigating Aliasing** <br>
 Aliasing occurs when high-frequency components in the image exceed the Nyquist frequency, leading to distortions and false frequencies in the reconstructed image. When downsampling an image without prior smoothing, high-frequency details may not be adequately represented in the subsampled image. As a result, aliasing artifacts can appear as moiré patterns, jagged edges, or other visual distortions, compromising the quality and fidelity of the image.
 **Preventing Blocky Artifacts**<br>
-Without smoothing, downsampling can lead to blocky artifacts, where pixelation becomes evident. These blocky artifacts result from the abrupt removal of pixels during subsampling, leading to discontinuities in the image structure. Smoothing helps to alleviate these artifacts by blending neighboring pixel values, resulting in smoother transitions and a more visually pleasing appearance.
+Without smoothing, downsampling can lead to blocky artifacts, where pixelation becomes evident. These blocky artifacts result from the abrupt removal of pixels during subsampling, leading to discontinuities in the image structure. Smoothing helps to alleviate these artifacts by blending neighboring pixel values, resulting in smoother transitions and a more visually pleasing appearance.![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/12cf9b5f-8c03-4f24-847f-65ad4f96fa53)
+<br>
 **Balancing Resolution Reduction and Image Quality**<br>
 The degree of smoothing required before subsampling depends on the desired level of image quality and the extent of resolution reduction. As the degree of subsampling increases, meaning more pixels are discarded to achieve a smaller image size, the amount of smoothing needed also increases proportionally. Balancing resolution reduction and image quality involves finding the optimal trade-off between reducing image size and preserving essential details and structural integrity.
 ### Image Re-sampling
