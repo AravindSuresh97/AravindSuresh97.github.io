@@ -157,4 +157,6 @@ print(f"Probability it's a bird: {probs[0]:.4f}")
 
 - The .predict method takes in an image, and this is how you deploy the model. This is going to return whether it is a bird or not as a string and as an integer and also the probability that it is a nonbird or a bird.
 
-- This example shows us how easy it is to run a deep learning system to perform something that was considered impossible some years back and how it takes very less time to do it as well. 
+**This example shows us how easy it is to run a deep learning system to perform something that was considered impossible some years back and how it takes very less time to do it as well.**  
+
+Happy Coding 🤟 !!!
