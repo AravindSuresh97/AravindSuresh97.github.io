@@ -10,7 +10,7 @@ Let's get Started !
 urls = search_images('bird photos', max_images=1)
 urls[0]
 ```
-We are searching for using Duck Duck Go for images of bird photos.
+Here, we are searching for using Duck Duck Go for images of bird photos.
 This then provides us with the URL of a bird image we grabbed.
 
 ```python
@@ -136,6 +136,16 @@ Check out Tutorial section in the [Fast AI documents](https://docs.fast.ai/) to 
 learn = vision_learner(dls, resnet18, metrics=error_rate)
 learn.fine_tune(3)
 ```
+- Run through every photo out of the 400, for the ones that are forest, it's gonna learn more about what a forest looks like, and for the ones that are bird, it is gonna learn more about what a bird looks like. And the total time in the time column, is the time taken to completely do it.
+- A ‘learner’ is a critical concept in fast ai, which combines a model, which is the actual neural network we will be training, and the data we used to train it with. Therefore we pass two things here, the data which is dls, and the model. The model is going to be the actual neural network function. Here we are passing resnet18 which is a built-in model of fastai. 
+- The reason we can do this so fast is because somebody has already trained this model to recognize 1 million images of over 1000 different types- called the ImageNet dataset. They then made it available o internet for anyone to download. In fastai, these parameters are downloaded for the user when we use one of the models, so that the user is not left with something to start from scratch.
+- fine_tune method takes those pre-trained parameters and adjusts them in a controlled way to just teach the model the differences between the dataset it was originally rained for and the current dataset. This is called fine-tuning.
+- In the table below, you will see the error rates, and you can see that the error rates keep decreasing, and after a few attempts the error rate is 0 which means it is 100% accurate.
+- 
+  ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/8c7527e5-ca37-4214-9a81-0e40ee369ea2)
+
+- So we now have a learner which has a trained model which now has been fine-tuned for the purpose of recognizing bird pictures from forest pictures.
+  
 
 
 ```python
@@ -143,3 +153,8 @@ is_bird,_,probs = learn.predict(PILImage.create('bird.jpg'))
 print(f"This is a: {is_bird}.")
 print(f"Probability it's a bird: {probs[0]:.4f}")
 ```
+- Now we pass on the bird image we initially downloaded and check if it is a bird or not; and it shows us the probability of it being a bird.
+
+- The .predict method takes in an image, and this is how you deploy the model. This is going to return whether it is a bird or not as a string and as an integer and also the probability that it is a nonbird or a bird.
+
+- This example shows us how easy it is to run a deep learning system to perform something that was considered impossible some years back and how it takes very less time to do it as well. 
