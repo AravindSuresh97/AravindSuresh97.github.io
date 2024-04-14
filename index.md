@@ -1,7 +1,7 @@
 
 
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/333d4ded-aab3-4cd3-97ff-5241b670346f)
 
-![20201214_205015-01](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/4d3b53e4-d8f7-4e05-8144-d5b266ca3026)
 
 ## Welcome to My Corner of the Internet!
 
