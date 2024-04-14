@@ -1,6 +1,13 @@
 
 
-![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/333d4ded-aab3-4cd3-97ff-5241b670346f)
+
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/4ffa10f4-7620-4f7a-b9e4-c13b2cb6ddd5)
+<img width="229" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/1497b0df-f6d7-4c57-ab72-3760d86061e9">
+
+
+
+
+
 
 
 ## Welcome to My Corner of the Internet!
