@@ -1,6 +1,14 @@
 # The difference between a normal computer program (pre-deep learning) and a machine learning model
 
 In the landscape of computational problem-solving, the advent of machine learning represents a paradigm shift from traditional programming approaches. In this short overview, inspired by insights from Jeremy Howard's Fast Ai course, we'll explore the fundamental differences between conventional computer programs and machine learning models.
+![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/82ddfd47-3c17-4c3d-943e-e2ecea3d9aec)
+
+**Why are able to create a bird recognition within few minutes?And why not before?**<br>
+In the 2012 deep learning systems for analyzing the breast cancer chances in patients, a team of mathematicians, pathologists, and computer scientists got together and developed a ideas for feature list. This list had thousands of relationship features and each one required careful assessment and expertise from different disciplines. They then fed these features into a machine-learning model.
+- Even if the system is effective it is very time-consuming and cannot be built easily. 
+- The difference with neural networks is that, neural networks do not require us to build these features, they do it for us – we don’t give it features, we ask it to learn features. With neural networks we don’t have to hand code any of these. We start with a random neural network and we feed it example, and have it learn from it.
+
+In former computer programs which were developed before the deep learning era, the program is usually a bunch of conditionals, loops, and setting variables.<br>
 
 <img width="488" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/42e90a48-7c20-47ab-b0b3-0405bd2761ab">
 
