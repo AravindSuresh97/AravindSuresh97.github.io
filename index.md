@@ -2,9 +2,9 @@
 
 
 ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/4ffa10f4-7620-4f7a-b9e4-c13b2cb6ddd5)
+<img width="228" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/1c81f69c-df55-404d-acfb-494df5a14e2e">
 
 
-<img width="193" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/c5d3cae4-7ddc-4871-a774-1af08fcb075a">
 
 
 
