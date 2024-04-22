@@ -1,4 +1,4 @@
-#  Building and Deploying Deep Learning Models with Hugging Face
+#  Hugging Face: Part Two - Building and Deploying Deep Learning Models with Hugging Face
 
 
 ## Introduction
