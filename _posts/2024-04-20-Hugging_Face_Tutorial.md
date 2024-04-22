@@ -1,4 +1,4 @@
-# Creating an Application on Hugging Face: A Step-by-Step Tutorial
+# Creating an Application on Hugging Face: A Step-by-Step Tutorial 
 
 1. Introduction to Hugging Face:
 - Hugging Face provides a free platform for hosting and sharing machine learning models.
