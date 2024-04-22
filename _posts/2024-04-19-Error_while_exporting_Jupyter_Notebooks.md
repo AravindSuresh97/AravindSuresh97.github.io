@@ -1,4 +1,4 @@
-# Resolving Export Errors: Installing XeLaTeX and Pandoc for Jupyter Notebooks
+# Jupyter Notebook Export Errors: Installing XeLaTeX and Pandoc for Jupyter Notebooks
 
 Have you ever encountered frustrating errors while exporting Jupyter Notebooks? <br>
 I recently found myself in a similar predicament when attempting to export my notebooks to PDF and other formats. <br>
