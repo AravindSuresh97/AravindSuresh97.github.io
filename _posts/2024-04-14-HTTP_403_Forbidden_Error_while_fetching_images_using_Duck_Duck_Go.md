@@ -1,4 +1,4 @@
-# Demystifying HTTP 403: Troubleshooting Image Fetching with DuckDuckGo
+# HTTP 403: Forbidden Error - Troubleshooting Image Fetching with DuckDuckGo
 
 
 I've encountered my fair share of HTTP status codes. 
