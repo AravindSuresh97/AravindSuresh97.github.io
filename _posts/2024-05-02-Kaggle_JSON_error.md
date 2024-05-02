@@ -34,7 +34,7 @@ cd ~
 This will take us to the home directory.
 
 ## Step 4 - Access the Kaggle Folder
-Now, to enter the .kaggle directory.
+Now, change to the .kaggle directory.
 ```python
 cd .kaggle/
 ```
