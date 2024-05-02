@@ -2,6 +2,9 @@
 
 Have you ever encountered the perplexing Kaggle.json file error while running the ***08-first-steps-road-to-the-top-part-1*** notebook in the Course 22 repository? 
 
+<img width="629" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/cb4be72e-aba8-42cf-8536-47ccee2d0e54">
+
+
 Don't worry; you're not alone. 
 
 Initially, I found myself scratching my head over this issue, but with the invaluable assistance of ***Brian and Yidi***, we managed to crack the code and resolve it seamlessly.
@@ -45,6 +48,7 @@ Now, change to the .kaggle directory.
 ```python
 cd .kaggle/
 ```
+
 ## Step 5 - Create a Kaggle.json File
 Use the ```vim``` command to create a new file named kaggle.json. Use the commend:
 ```python
@@ -53,8 +57,8 @@ vim kaggle.json
 Vim is a powerful text editor that's often pre-installed on Unix-based systems like Linux and macOS.
 
 ## Step 6 - Insert Data into the File
-Once inside the file, press the ```i``` key to enter insert mode. 
-Then paste the copied JSON values from the downloaded Kaggle.json file and paste them into the Vim editor.
+Asfter you execute the previous command, press the ```i``` key to enter ***insert*** mode. 
+Then paste the copied JSON values from the downloaded Kaggle.json file and paste them into the terminal.
 
 The ```i``` command stands for "insert," allowing you to add text to the file.
 
