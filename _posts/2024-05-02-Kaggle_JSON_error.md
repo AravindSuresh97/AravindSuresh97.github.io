@@ -10,9 +10,18 @@ So, let's delve into the intricacies of resolving this pesky error.
 
 ## Step 1
 The first step is to ensure you have a Kaggle account. It doesn't matter whether you use your university email or a personal one to sign up.
+<img width="649" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/3cc6a39f-f260-4735-a421-a09002a553ac">
+
+
 ## Step 2
-- Once you're logged in, navigate to your profile and locate the "Settings" option.
-- Under the "API" section, you'll find the golden ticket: "Create New Token." Clicking on this will initiate the download of a Kaggle.json file, which holds the key to our solution.
+- Once you're logged in, navigate to your profile and locate the ***Settings*** option.
+  <img width="288" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/dc67aee5-b174-45b6-bac9-72ab8ff87fa9">
+
+- Under the ***API*** section, you'll find the golden ticket: ***Create New Token*** 
+  ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/ebaf1b00-5d35-4fb2-a0c5-0f57cbe9e70d)
+- Clicking on this will initiate the download of a ***Kaggle.json*** file, which holds the key to our solution.
+  <img width="478" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/75532da3-1951-48f4-ae16-b595add8586d">
+
 
 Now, armed with this file, we need to place it in a specific directory. Let's return to our trusty VS Code and open a bash terminal window. 
 Here's where the magic happens:
