@@ -17,7 +17,8 @@ The first step is to ensure you have a Kaggle account. It doesn't matter whether
 ## Step 2
 - Once you're logged in, navigate to your profile and locate the ***Settings*** option.
   
-  <img width="288" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/dc67aee5-b174-45b6-bac9-72ab8ff87fa9">
+  ![image](https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/b04f70a2-8693-46e4-bee1-adaf735239a4)
+
 
 - Under the ***API*** section, you'll find the golden ticket: ***Create New Token***
   
