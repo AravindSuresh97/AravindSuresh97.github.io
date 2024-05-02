@@ -25,7 +25,8 @@ The first step is to ensure you have a Kaggle account. It doesn't matter whether
   
 - Clicking on this will initiate the download of a ***Kaggle.json*** file, which holds the key to our solution.
 
-  <img width="478" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/75532da3-1951-48f4-ae16-b595add8586d">
+ <img width="717" alt="image" src="https://github.com/AravindSuresh97/AravindSuresh97.github.io/assets/138949012/560dcb86-0224-45da-a3e7-14583129baae">
+
 
 
 Now, armed with this file, we need to place it in a specific directory. Let's return to our trusty VS Code and open a bash terminal window. 
